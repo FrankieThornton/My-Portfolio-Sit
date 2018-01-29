@@ -1,1 +1,69 @@
-style.css
+body {
+	background:#F0F8FF;
+	padding-top: 130px;
+	font-size: 25px;
+	font-family: "'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	color:#ff66cc;
+	text-align: center;
+	background: #E6E6FA;
+	width: 300px;
+	padding: 15px;
+	border: 15px;
+	outline-style: double;
+	outline-color: #ff66cc;
+	position: fixed;
+	top: 0px; 
+	width: 100%;
+}
+
+nav {
+	text-align: center;
+	text-decoration: none;
+}
+
+ nav a:hover {
+ 	background-color:ff99ff;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+img {
+	filter: grayscale(100%);
+	padding: 0px;
+	border-radius: 9px;
+	border: 1px solid #a3a3c2;
+	padding: 5px;
+	max-width: 100%;
+	max-height: auto;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color:#ff99ff;
+	font-size: 20px;
+}
+
+li {
+	display: inline-block;
+	color: white;
+	padding-top: 0px;
+	padding-right: 80px 
+	padding-bottom: 0px;
+	padding-left: 80px;
+	text-decoration: none;
+	border: 1px solid #696969;
+}
+
+li a:hover {
+	background-color:#f442ce;
+}
